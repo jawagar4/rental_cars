@@ -1,0 +1,29 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Google+Sans:ital,opsz,wght@0,17..18,400..700;1,17..18,400..700&family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+@import "bootstrap-icons/font/bootstrap-icons";
+:root {
+  --text: #6b6375;
+  --text-h: #08060d;
+  --bg: #212529;
+  --border: #e5e4e7;
+  --code-bg: #f4f3ec;
+  --font: "PT Sans", sans-serif;
+   --brand-dark: #0d1b2a;
+          --brand-mid: #1b3a5c;
+          --brand-accent: #e8500a;
+          --brand-accent-hover: #c03f00;
+          --nav-text: #d8e4f0;
+          --nav-text-active: #ffffff;
+          --font-size: 15px
+}
+
+*{
+  color: var(--text--h);
+   font-family: "Google Sans", sans-serif;
+   font-size: var(--font-size);
+}
+
+body{
+  background-color: var(--bg);
+}
